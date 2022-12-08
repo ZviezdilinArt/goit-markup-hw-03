@@ -159,9 +159,6 @@ body {
     list-style-type: none;
 
 }
-.features-list-item {
-    background-color: tomato;
-}
 
 .features-list-item + .features-list-item {
     margin-left: 24px;
