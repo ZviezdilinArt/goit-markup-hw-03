@@ -245,6 +245,18 @@ body {
 
 /* Portfolio page */
 
+
+.button-list {
+    display: flex;
+    justify-content: center;
+
+    list-style-type: none;
+}
+
+.button-list-item + .button-list-item {
+    margin-left: 24px;
+}
+
 .portfolio-button {
     color: var(--brand-color);
     background-color: var(--secondary-bgn-color);
@@ -259,6 +271,20 @@ body {
     color: var(--white-text-color);
     background-color: var(--brand-color);
 }
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    list-style-type: none;
+}
+
+.portfolio-item {
+    width: 360px;
+    margin-right: 24px;
+    margin-bottom: 48px;
+}
+
 
 .portfolio-title{
     line-height: 1.2;
