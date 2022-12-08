@@ -134,7 +134,6 @@ body {
 .hero-title {
     margin-bottom: 48px;
 
-
     color: var(--white-text-color);
     line-height: 1.07;
     font-size: 56px;
@@ -154,7 +153,6 @@ body {
 
 .features-list {
     display: flex;
-
 
     list-style-type: none;
 
