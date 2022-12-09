@@ -37,10 +37,15 @@ body {
 }
 
 .section {
-    padding: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 /* Header */
+
+.header {
+    border-bottom: 1px solid var(--brand-color);
+}
 
 .main-nav {
     display: flex;
@@ -281,10 +286,17 @@ body {
 
 .portfolio-item {
     width: 360px;
-    margin-right: 24px;
     margin-bottom: 48px;
+    border-bottom: 0.5px solid var(--border-color);
 }
 
+.portfolio-item + .portfolio-item {
+    margin-left: 24px;
+}
+
+.portfolio-item:nth-last-child(3n) {
+    margin-left: 0;
+}
 
 .portfolio-title{
     line-height: 1.2;
@@ -295,13 +307,13 @@ body {
 /* Footer */
 
 .footer {
+
     background-color: var(--footer-bgn-color);
 }
 
 .footer-block {
-    display: block;
-    width: 264px;
-
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-logo, .footer-logo-web {
@@ -319,5 +331,7 @@ body {
 }
 
 .footer-text {
+    margin-top: 16px;
+    width: 264px;
     color: var(--footer-text-color);
 }
