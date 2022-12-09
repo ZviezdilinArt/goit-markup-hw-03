@@ -298,11 +298,19 @@ body {
     margin-left: 0;
 }
 
+.portfolio-item-card {
+    text-decoration: none;
+}
+
 .portfolio-title{
     line-height: 1.2;
     font-size: var(--font-size-secondary);
+    color: var(--primary-text-color);
 }
 
+.portfolio-title-text {
+    color: var(--secondary-text-color);
+}
 
 /* Footer */
 
